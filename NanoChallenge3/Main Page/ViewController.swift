@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     
@@ -17,12 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
+      scrollView.delegate = self
+        
       slides = createSlide()
       setupSlideScrollView(slides: slides)
       
       pageControl.numberOfPages = slides.count
       pageControl.currentPage = 0
-      view.bringSubviewToFront(pageControl)
 
     }
     
@@ -56,6 +57,12 @@ class ViewController: UIViewController {
             slides[i].frame = CGRect(x: view.frame.width * CGFloat(i), y: 0, width: view.frame.width, height: view.frame.height)
             scrollView.addSubview(slides[i])
         }
+    }
+    
+    //Method to change page control to its current page when scrollview updated
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let pageNumber = scrollView.contentOffset.x / scrollView.frame.size.width
+        pageControl.currentPage = Int(pageNumber)
     }
 
     
