@@ -13,6 +13,8 @@
 		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
+		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
+		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				254324FF248F9C7400452180 /* AppDelegate.swift */,
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
 				25432503248F9C7400452180 /* ViewController.swift */,
+				713F1B29249216C900519D6A /* Slide.swift */,
+				713F1B2B249216F900519D6A /* Slide.xib */,
 				25432505248F9C7400452180 /* Main.storyboard */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
+				713F1B2C249216F900519D6A /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
+				713F1B2A249216C900519D6A /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
