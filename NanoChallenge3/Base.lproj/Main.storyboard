@@ -16,8 +16,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="u0F-N0-kuD" kind="relationship" relationship="viewControllers" id="HmT-5m-SdC"/>
-                        <segue destination="UlR-U8-0ak" kind="relationship" relationship="viewControllers" id="5Jc-YD-ifJ"/>
+                        <segue destination="dgu-9Q-uaY" kind="relationship" relationship="viewControllers" id="gLS-5m-ORp"/>
+                        <segue destination="LMR-AF-W7C" kind="relationship" relationship="viewControllers" id="q04-dn-LRc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jO5-B6-Xdh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -25,29 +25,28 @@
             <point key="canvasLocation" x="-148" y="-542"/>
         </scene>
         <!--Explore-->
-        <scene sceneID="vmn-Yr-lD5">
+        <scene sceneID="TGf-gn-BLr">
             <objects>
-                <viewControllerPlaceholder storyboardName="Explore" id="u0F-N0-kuD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="star.fill" catalog="system" selectedImage="arrow" id="7DK-jx-Q3X"/>
+                <viewControllerPlaceholder storyboardIdentifier="Explore" storyboardName="Explore" id="dgu-9Q-uaY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="55T-64-KWQ"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nxS-9N-KVW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYL-Lt-Rpu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-481" y="-110"/>
+            <point key="canvasLocation" x="-497" y="-139"/>
         </scene>
         <!--Collection-->
-        <scene sceneID="NvP-Fb-0r2">
+        <scene sceneID="Ast-zw-EJb">
             <objects>
-                <viewControllerPlaceholder storyboardName="Collection" id="UlR-U8-0ak" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="rectangle.grid.2x2.fill" catalog="system" id="2bG-T8-Mcl"/>
+                <viewControllerPlaceholder storyboardName="Collection" id="LMR-AF-W7C" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Collections" image="rectangle.grid.3x2.fill" catalog="system" id="65V-UO-ORm"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pmZ-lP-NSv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ajk-Od-W6g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="161" y="-110"/>
+            <point key="canvasLocation" x="-149" y="-100"/>
         </scene>
     </scenes>
     <resources>
-        <image name="arrow" width="128" height="128"/>
-        <image name="rectangle.grid.2x2.fill" catalog="system" width="128" height="99"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="rectangle.grid.3x2.fill" catalog="system" width="128" height="101"/>
     </resources>
 </document>
