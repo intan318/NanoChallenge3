@@ -15,6 +15,9 @@
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
 		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
 		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
+		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
+		71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1A22D249266FB002360B5 /* AudioStory.storyboard */; };
+		71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1A22F24926735002360B5 /* AudioStoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
+		71E1A22D249266FB002360B5 /* AudioStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioStory.storyboard; sourceTree = "<group>"; };
+		71E1A22F24926735002360B5 /* AudioStoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,30 @@
 				254324FF248F9C7400452180 /* AppDelegate.swift */,
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
 				71F513B6249228260004B353 /* Main Page */,
+				71E1A23124926740002360B5 /* Audio Story Page */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
+				71C5411F249395E600FAB901 /* Sound */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
 				2543250D248F9C7600452180 /* Info.plist */,
 			);
 			path = NanoChallenge3;
+			sourceTree = "<group>";
+		};
+		71C5411F249395E600FAB901 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				71C541202493965100FAB901 /* heavy0rain.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		71E1A23124926740002360B5 /* Audio Story Page */ = {
+			isa = PBXGroup;
+			children = (
+				71E1A22D249266FB002360B5 /* AudioStory.storyboard */,
+				71E1A22F24926735002360B5 /* AudioStoryController.swift */,
+			);
+			path = "Audio Story Page";
 			sourceTree = "<group>";
 		};
 		71F513B6249228260004B353 /* Main Page */ = {
@@ -140,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
+				71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
+				71C541212493965100FAB901 /* heavy0rain.wav in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
 				713F1B2C249216F900519D6A /* Slide.xib in Resources */,
 			);
@@ -155,6 +182,7 @@
 			files = (
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
+				71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */,
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
 				713F1B2A249216C900519D6A /* Slide.swift in Sources */,
 			);
