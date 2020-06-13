@@ -40,6 +40,11 @@
 		25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */; };
 		25EFAF592494BE6E008CD05C /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */; };
 		25EFAF5B2494D500008CD05C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF5A2494D500008CD05C /* TabBarViewController.swift */; };
+		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
+		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
+		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
+		71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1A22D249266FB002360B5 /* AudioStory.storyboard */; };
+		71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1A22F24926735002360B5 /* AudioStoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +83,11 @@
 		25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		25EFAF5A2494D500008CD05C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
+		71E1A22D249266FB002360B5 /* AudioStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioStory.storyboard; sourceTree = "<group>"; };
+		71E1A22F24926735002360B5 /* AudioStoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +189,10 @@
 				25B464272493618500ED5771 /* Explore */,
 				254324FF248F9C7400452180 /* AppDelegate.swift */,
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
+				71F513B6249228260004B353 /* Main Page */,
+				71E1A23124926740002360B5 /* Audio Story Page */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
+				71C5411F249395E600FAB901 /* Sound */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
 				2543250D248F9C7600452180 /* Info.plist */,
 				25B464032492020E00ED5771 /* ImgExploreCollectionViewCell.swift */,
@@ -218,6 +231,32 @@
 			children = (
 			);
 			path = "Latest Story";
+		71C5411F249395E600FAB901 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				71C541202493965100FAB901 /* heavy0rain.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		71E1A23124926740002360B5 /* Audio Story Page */ = {
+			isa = PBXGroup;
+			children = (
+				71E1A22D249266FB002360B5 /* AudioStory.storyboard */,
+				71E1A22F24926735002360B5 /* AudioStoryController.swift */,
+			);
+			path = "Audio Story Page";
+			sourceTree = "<group>";
+		};
+		71F513B6249228260004B353 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				25432503248F9C7400452180 /* ViewController.swift */,
+				713F1B29249216C900519D6A /* Slide.swift */,
+				25432505248F9C7400452180 /* Main.storyboard */,
+				713F1B2B249216F900519D6A /* Slide.xib */,
+			);
+			path = "Main Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +333,11 @@
 				25EFAF552494BADD008CD05C /* WhatsNextCollectionViewCell.xib in Resources */,
 				25B4642D2493620400ED5771 /* Explore1TableViewCell.xib in Resources */,
 				25B464352493623A00ED5771 /* BeachTableViewCell.xib in Resources */,
+				71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */,
+				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
+				71C541212493965100FAB901 /* heavy0rain.wav in Resources */,
+				25432507248F9C7400452180 /* Main.storyboard in Resources */,
+				713F1B2C249216F900519D6A /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +364,9 @@
 				25B464342493623A00ED5771 /* BeachTableViewCell.swift in Sources */,
 				25B464302493622800ED5771 /* MountainsTableViewCell.swift in Sources */,
 				2516204A2493DBA50047B7AE /* WhatsNextTableViewCell.swift in Sources */,
+				71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */,
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
+				713F1B2A249216C900519D6A /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +503,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKS4UF4NS;
 				INFOPLIST_FILE = NanoChallenge3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +522,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKS4UF4NS;
 				INFOPLIST_FILE = NanoChallenge3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
