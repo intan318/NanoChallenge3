@@ -27,7 +27,6 @@
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
 		25B463F824913B5C00ED5771 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B463F724913B5C00ED5771 /* Explore.storyboard */; };
 		25B463FC2491F7CF00ED5771 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B463FB2491F7CF00ED5771 /* TabBar.storyboard */; };
-		25B463FE2491F7DA00ED5771 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B463FD2491F7DA00ED5771 /* TabBarViewController.swift */; };
 		25B464002491F96600ED5771 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B463FF2491F96600ED5771 /* Collection.storyboard */; };
 		25B464022491F96F00ED5771 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B464012491F96F00ED5771 /* CollectionViewController.swift */; };
 		25B464042492020E00ED5771 /* ImgExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B464032492020E00ED5771 /* ImgExploreCollectionViewCell.swift */; };
@@ -42,6 +41,7 @@
 		25EFAF552494BADD008CD05C /* WhatsNextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF532494BADD008CD05C /* WhatsNextCollectionViewCell.xib */; };
 		25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */; };
 		25EFAF592494BE6E008CD05C /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */; };
+		25EFAF5B2494D500008CD05C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF5A2494D500008CD05C /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +67,6 @@
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25B463F724913B5C00ED5771 /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		25B463FB2491F7CF00ED5771 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
-		25B463FD2491F7DA00ED5771 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		25B463FF2491F96600ED5771 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
 		25B464012491F96F00ED5771 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		25B464032492020E00ED5771 /* ImgExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgExploreCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		25EFAF532494BADD008CD05C /* WhatsNextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextCollectionViewCell.xib; sourceTree = "<group>"; };
 		25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		25EFAF5A2494D500008CD05C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +190,7 @@
 				2543250D248F9C7600452180 /* Info.plist */,
 				25B464032492020E00ED5771 /* ImgExploreCollectionViewCell.swift */,
 				25B463FB2491F7CF00ED5771 /* TabBar.storyboard */,
-				25B463FD2491F7DA00ED5771 /* TabBarViewController.swift */,
+				25EFAF5A2494D500008CD05C /* TabBarViewController.swift */,
 			);
 			path = NanoChallenge3;
 			sourceTree = "<group>";
@@ -315,9 +315,9 @@
 				25B464022491F96F00ED5771 /* CollectionViewController.swift in Sources */,
 				25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */,
 				25B4642C2493620400ED5771 /* Explore1TableViewCell.swift in Sources */,
+				25EFAF5B2494D500008CD05C /* TabBarViewController.swift in Sources */,
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
-				25B463FE2491F7DA00ED5771 /* TabBarViewController.swift in Sources */,
 				2516204E2493DBB40047B7AE /* MyCollectionsTableViewCell.swift in Sources */,
 				25B464042492020E00ED5771 /* ImgExploreCollectionViewCell.swift in Sources */,
 				25B4642624935FBB00ED5771 /* ExploreViewController.swift in Sources */,
