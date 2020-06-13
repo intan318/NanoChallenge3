@@ -10,6 +10,7 @@ import UIKit
 
 class ExploreCollectionViewCell: UICollectionViewCell {
 
+    
     @IBOutlet weak var imgCell: UIImageView!
     @IBOutlet weak var txtRecommendation: UILabel!
     @IBOutlet weak var txtDestination: UILabel!

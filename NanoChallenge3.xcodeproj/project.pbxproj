@@ -13,6 +13,12 @@
 		25162037249380BA0047B7AE /* MountainsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25162035249380BA0047B7AE /* MountainsCollectionViewCell.xib */; };
 		2516203D249392E60047B7AE /* BeachCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2516203B249392E60047B7AE /* BeachCollectionViewCell.swift */; };
 		2516203E249392E60047B7AE /* BeachCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2516203C249392E60047B7AE /* BeachCollectionViewCell.xib */; };
+		251620462493DB950047B7AE /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251620442493DB950047B7AE /* HeaderTableViewCell.swift */; };
+		251620472493DB950047B7AE /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251620452493DB950047B7AE /* HeaderTableViewCell.xib */; };
+		2516204A2493DBA50047B7AE /* WhatsNextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251620482493DBA50047B7AE /* WhatsNextTableViewCell.swift */; };
+		2516204B2493DBA50047B7AE /* WhatsNextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251620492493DBA50047B7AE /* WhatsNextTableViewCell.xib */; };
+		2516204E2493DBB40047B7AE /* MyCollectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2516204C2493DBB40047B7AE /* MyCollectionsTableViewCell.swift */; };
+		2516204F2493DBB40047B7AE /* MyCollectionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2516204D2493DBB40047B7AE /* MyCollectionsTableViewCell.xib */; };
 		25432500248F9C7400452180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254324FF248F9C7400452180 /* AppDelegate.swift */; };
 		25432502248F9C7400452180 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25432501248F9C7400452180 /* SceneDelegate.swift */; };
 		25432504248F9C7400452180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25432503248F9C7400452180 /* ViewController.swift */; };
@@ -32,6 +38,10 @@
 		25B464312493622800ED5771 /* MountainsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B4642F2493622800ED5771 /* MountainsTableViewCell.xib */; };
 		25B464342493623A00ED5771 /* BeachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B464322493623A00ED5771 /* BeachTableViewCell.swift */; };
 		25B464352493623A00ED5771 /* BeachTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B464332493623A00ED5771 /* BeachTableViewCell.xib */; };
+		25EFAF542494BADD008CD05C /* WhatsNextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF522494BADD008CD05C /* WhatsNextCollectionViewCell.swift */; };
+		25EFAF552494BADD008CD05C /* WhatsNextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF532494BADD008CD05C /* WhatsNextCollectionViewCell.xib */; };
+		25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */; };
+		25EFAF592494BE6E008CD05C /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,12 @@
 		25162035249380BA0047B7AE /* MountainsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MountainsCollectionViewCell.xib; sourceTree = "<group>"; };
 		2516203B249392E60047B7AE /* BeachCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachCollectionViewCell.swift; sourceTree = "<group>"; };
 		2516203C249392E60047B7AE /* BeachCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachCollectionViewCell.xib; sourceTree = "<group>"; };
+		251620442493DB950047B7AE /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		251620452493DB950047B7AE /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		251620482493DBA50047B7AE /* WhatsNextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextTableViewCell.swift; sourceTree = "<group>"; };
+		251620492493DBA50047B7AE /* WhatsNextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextTableViewCell.xib; sourceTree = "<group>"; };
+		2516204C2493DBB40047B7AE /* MyCollectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionsTableViewCell.swift; sourceTree = "<group>"; };
+		2516204D2493DBB40047B7AE /* MyCollectionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionsTableViewCell.xib; sourceTree = "<group>"; };
 		254324FC248F9C7400452180 /* NanoChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254324FF248F9C7400452180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25432501248F9C7400452180 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +78,10 @@
 		25B4642F2493622800ED5771 /* MountainsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MountainsTableViewCell.xib; sourceTree = "<group>"; };
 		25B464322493623A00ED5771 /* BeachTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachTableViewCell.swift; sourceTree = "<group>"; };
 		25B464332493623A00ED5771 /* BeachTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachTableViewCell.xib; sourceTree = "<group>"; };
+		25EFAF522494BADD008CD05C /* WhatsNextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextCollectionViewCell.swift; sourceTree = "<group>"; };
+		25EFAF532494BADD008CD05C /* WhatsNextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextCollectionViewCell.xib; sourceTree = "<group>"; };
+		25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,37 @@
 				2516203C249392E60047B7AE /* BeachCollectionViewCell.xib */,
 			);
 			path = Beach;
+			sourceTree = "<group>";
+		};
+		251620412493DB5E0047B7AE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				251620442493DB950047B7AE /* HeaderTableViewCell.swift */,
+				251620452493DB950047B7AE /* HeaderTableViewCell.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		251620422493DB730047B7AE /* MyCollections */ = {
+			isa = PBXGroup;
+			children = (
+				2516204C2493DBB40047B7AE /* MyCollectionsTableViewCell.swift */,
+				2516204D2493DBB40047B7AE /* MyCollectionsTableViewCell.xib */,
+				25EFAF562494BE6E008CD05C /* MyCollectionViewCell.swift */,
+				25EFAF572494BE6E008CD05C /* MyCollectionViewCell.xib */,
+			);
+			path = MyCollections;
+			sourceTree = "<group>";
+		};
+		251620432493DB7A0047B7AE /* WhatsNext */ = {
+			isa = PBXGroup;
+			children = (
+				251620482493DBA50047B7AE /* WhatsNextTableViewCell.swift */,
+				251620492493DBA50047B7AE /* WhatsNextTableViewCell.xib */,
+				25EFAF522494BADD008CD05C /* WhatsNextCollectionViewCell.swift */,
+				25EFAF532494BADD008CD05C /* WhatsNextCollectionViewCell.xib */,
+			);
+			path = WhatsNext;
 			sourceTree = "<group>";
 		};
 		254324F3248F9C7400452180 = {
@@ -161,6 +212,9 @@
 			children = (
 				25B463FF2491F96600ED5771 /* Collection.storyboard */,
 				25B464012491F96F00ED5771 /* CollectionViewController.swift */,
+				251620412493DB5E0047B7AE /* Header */,
+				251620432493DB7A0047B7AE /* WhatsNext */,
+				251620422493DB730047B7AE /* MyCollections */,
 			);
 			path = Collections;
 			sourceTree = "<group>";
@@ -235,11 +289,16 @@
 				2516203E249392E60047B7AE /* BeachCollectionViewCell.xib in Resources */,
 				2516203324936C020047B7AE /* ExploreCollectionViewCell.xib in Resources */,
 				25B463F824913B5C00ED5771 /* Explore.storyboard in Resources */,
+				2516204F2493DBB40047B7AE /* MyCollectionsTableViewCell.xib in Resources */,
 				25162037249380BA0047B7AE /* MountainsCollectionViewCell.xib in Resources */,
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
+				251620472493DB950047B7AE /* HeaderTableViewCell.xib in Resources */,
+				25EFAF592494BE6E008CD05C /* MyCollectionViewCell.xib in Resources */,
+				2516204B2493DBA50047B7AE /* WhatsNextTableViewCell.xib in Resources */,
 				25B464312493622800ED5771 /* MountainsTableViewCell.xib in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
+				25EFAF552494BADD008CD05C /* WhatsNextCollectionViewCell.xib in Resources */,
 				25B4642D2493620400ED5771 /* Explore1TableViewCell.xib in Resources */,
 				25B464352493623A00ED5771 /* BeachTableViewCell.xib in Resources */,
 			);
@@ -254,16 +313,21 @@
 			files = (
 				2516203D249392E60047B7AE /* BeachCollectionViewCell.swift in Sources */,
 				25B464022491F96F00ED5771 /* CollectionViewController.swift in Sources */,
+				25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */,
 				25B4642C2493620400ED5771 /* Explore1TableViewCell.swift in Sources */,
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
 				25B463FE2491F7DA00ED5771 /* TabBarViewController.swift in Sources */,
+				2516204E2493DBB40047B7AE /* MyCollectionsTableViewCell.swift in Sources */,
 				25B464042492020E00ED5771 /* ImgExploreCollectionViewCell.swift in Sources */,
 				25B4642624935FBB00ED5771 /* ExploreViewController.swift in Sources */,
 				25162036249380BA0047B7AE /* MountainsCollectionViewCell.swift in Sources */,
 				2516203224936C020047B7AE /* ExploreCollectionViewCell.swift in Sources */,
+				25EFAF542494BADD008CD05C /* WhatsNextCollectionViewCell.swift in Sources */,
+				251620462493DB950047B7AE /* HeaderTableViewCell.swift in Sources */,
 				25B464342493623A00ED5771 /* BeachTableViewCell.swift in Sources */,
 				25B464302493622800ED5771 /* MountainsTableViewCell.swift in Sources */,
+				2516204A2493DBA50047B7AE /* WhatsNextTableViewCell.swift in Sources */,
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,6 @@ import UIKit
 
 class ExploreViewController: UIViewController {
 
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -42,7 +41,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
         
         if indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "Explore1TableViewCell") as! Explore1TableViewCell
-            cell.backgroundColor = .red
+//            cell.backgroundColor = .red
             return cell
         } else if indexPath.row == 1 {
            let cell = tableView.dequeueReusableCell(withIdentifier: "MountainsTableViewCell") as! MountainsTableViewCell
@@ -50,7 +49,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "BeachTableViewCell") as! BeachTableViewCell
-            cell.backgroundColor = .yellow
+//            cell.backgroundColor = .yellow
             return cell
         }
     }
@@ -65,6 +64,5 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
             return 300
         }
     }
-    
     
 }

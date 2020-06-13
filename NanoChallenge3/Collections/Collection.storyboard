@@ -15,18 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8z7-gm-W5V">
-                                <rect key="frame" x="34" y="72" width="161" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lDf-KD-GlS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="JcI-9Z-VdS" id="bPB-GG-kKT"/>
+                                    <outlet property="delegate" destination="JcI-9Z-VdS" id="J68-OO-Rag"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hf0-zT-J4s" firstAttribute="trailing" secondItem="lDf-KD-GlS" secondAttribute="trailing" id="05Y-5t-Cd8"/>
+                            <constraint firstItem="hf0-zT-J4s" firstAttribute="bottom" secondItem="lDf-KD-GlS" secondAttribute="bottom" id="2WR-m2-NSB"/>
+                            <constraint firstItem="lDf-KD-GlS" firstAttribute="top" secondItem="hf0-zT-J4s" secondAttribute="top" id="eCt-bj-3bO"/>
+                            <constraint firstItem="lDf-KD-GlS" firstAttribute="leading" secondItem="hf0-zT-J4s" secondAttribute="leading" id="rkv-Md-60r"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hf0-zT-J4s"/>
                     </view>
                     <navigationItem key="navigationItem" id="sQx-ua-64B"/>
+                    <connections>
+                        <outlet property="tableView" destination="lDf-KD-GlS" id="Lo2-40-cX0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KK8-DQ-TrY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,33 +12,33 @@ class Explore1TableViewCell: UITableViewCell {
 
     var sampleData = [
         [
-            "picture" : #imageLiteral(resourceName: "nusa_penida"),
+            "picture" : #imageLiteral(resourceName: "gunung_ceremai"),
             "txtRecommendation" : "Recommendation",
-            "txtDestination" : "Nusa Penida"
+            "txtDestination" : "Nusa Penida",
         ],
         
         [
             "picture" : #imageLiteral(resourceName: "nusa_penida"),
             "txtRecommendation" : "Recommendation",
-            "txtDestination" : "Seminyak"
+            "txtDestination" : "Seminyak",
         ],
         
         [
             "picture" : #imageLiteral(resourceName: "nusa_penida"),
             "txtRecommendation" : "Recommendation",
-            "txtDestination" : "Nusa Dua"
+            "txtDestination" : "Nusa Dua",
         ],
         
         [
             "picture" : #imageLiteral(resourceName: "nusa_penida"),
             "txtRecommendation" : "Recommendation",
-            "txtDestination" : "Lombok"
+            "txtDestination" : "Lombok",
         ],
         
         [
             "picture" : #imageLiteral(resourceName: "nusa_penida"),
             "txtRecommendation" : "Recommendation",
-            "txtDestination" : "Anyer"
+            "txtDestination" : "Anyer",
         ],
     ]
     
@@ -60,7 +60,7 @@ class Explore1TableViewCell: UITableViewCell {
 extension Explore1TableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return sampleData.count
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -71,15 +71,19 @@ extension Explore1TableViewCell: UICollectionViewDelegate, UICollectionViewDataS
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ExploreCollectionViewCell", for: indexPath) as! ExploreCollectionViewCell
             cell.backgroundColor = .black
             cell.layer.cornerRadius = 17
-    
-//        let img = cell.viewWithTag(1) as! UIImageView
-//        let txt1 = cell.viewWithTag(2) as! UILabel
-//        let txt2 = cell.viewWithTag(3) as! UILabel
+//    
+        let img = cell.viewWithTag(1) as! UIImageView
+        let txt1 = cell.viewWithTag(2) as! UILabel
+        let txt2 = cell.viewWithTag(3) as! UILabel
 //
-//        let model = sampleData[indexPath.row]
-//        img.image = model ["picture"] as? UIImage
-//        txt1.text = model ["txtRecommendation"] as? String
-//        txt2.text = model ["txtDestination"] as? String
+        let model = sampleData[indexPath.row]
+        img.image = model ["picture"] as? UIImage
+        txt1.text = model ["txtRecommendation"] as? String
+        txt2.text = model ["txtDestination"] as? String
+
+//        cell.imgCell.image = model["picture"] as! UIImage
+//        cell.txtRecommendation.text = model["txtRecommendation"] as! String
+//        cell.txtDestination.text = model["txtDestination"] as! String
         
         return cell
     }

@@ -19,35 +19,30 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZI-BT-gPc">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="beX-hd-N6q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XBt-Ro-KqD">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mY-1j-Zvg">
-                                <rect key="frame" x="8" y="75" width="38" height="17"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="17" id="Ke4-SX-xJT"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recommendation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aB9-Yp-L82">
+                                <rect key="frame" x="8" y="52" width="129" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommendation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hge-pm-QLb">
-                                <rect key="frame" x="8" y="56" width="106" height="15"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="UCR-m1-7HL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAL-gn-7mF">
+                                <rect key="frame" x="8" y="72" width="75" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="3mY-1j-Zvg" firstAttribute="leading" secondItem="fZI-BT-gPc" secondAttribute="leading" constant="8" id="5YL-St-V7A"/>
-                            <constraint firstAttribute="bottom" secondItem="3mY-1j-Zvg" secondAttribute="bottom" constant="8" id="P6n-pQ-Ejd"/>
-                            <constraint firstItem="3mY-1j-Zvg" firstAttribute="top" secondItem="Hge-pm-QLb" secondAttribute="bottom" constant="4" id="QJ6-pK-aUT"/>
-                            <constraint firstItem="Hge-pm-QLb" firstAttribute="leading" secondItem="fZI-BT-gPc" secondAttribute="leading" constant="8" id="TR6-Gg-njj"/>
+                            <constraint firstAttribute="trailing" secondItem="XBt-Ro-KqD" secondAttribute="trailing" id="77q-84-bZA"/>
+                            <constraint firstItem="XBt-Ro-KqD" firstAttribute="leading" secondItem="fZI-BT-gPc" secondAttribute="leading" id="IPp-ps-NWZ"/>
+                            <constraint firstItem="XBt-Ro-KqD" firstAttribute="top" secondItem="fZI-BT-gPc" secondAttribute="top" id="Yuy-Kq-dQu"/>
+                            <constraint firstAttribute="bottom" secondItem="XBt-Ro-KqD" secondAttribute="bottom" id="xb2-Pc-Bgg"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -60,9 +55,9 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>
-                <outlet property="imgCell" destination="beX-hd-N6q" id="9SI-xd-NH0"/>
-                <outlet property="txtDestination" destination="3mY-1j-Zvg" id="DT7-Fl-c8x"/>
-                <outlet property="txtRecommendation" destination="Hge-pm-QLb" id="Gz0-XG-tB7"/>
+                <outlet property="imgCell" destination="XBt-Ro-KqD" id="fhp-UF-JOz"/>
+                <outlet property="txtDestination" destination="NAL-gn-7mF" id="Izu-4R-bMh"/>
+                <outlet property="txtRecommendation" destination="aB9-Yp-L82" id="exB-Nj-eNQ"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
         </collectionViewCell>
