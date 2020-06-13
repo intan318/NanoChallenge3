@@ -72,14 +72,14 @@ extension Explore1TableViewCell: UICollectionViewDelegate, UICollectionViewDataS
             cell.backgroundColor = .black
             cell.layer.cornerRadius = 17
 //    
-//        var img = cell.viewWithTag(1) as! UIImageView
-//        var txt1 = cell.viewWithTag(2) as! UILabel
-//        var txt2 = cell.viewWithTag(3) as! UILabel
+        let img = cell.viewWithTag(1) as! UIImageView
+        let txt1 = cell.viewWithTag(2) as! UILabel
+        let txt2 = cell.viewWithTag(3) as! UILabel
 //
         let model = sampleData[indexPath.row]
-//        img.image = model ["picture"] as? UIImage
-//        txt1.text = model ["txtRecommendation"] as? String
-//        txt2.text = model ["txtDestination"] as? String
+        img.image = model ["picture"] as? UIImage
+        txt1.text = model ["txtRecommendation"] as? String
+        txt2.text = model ["txtDestination"] as? String
 
 //        cell.imgCell.image = model["picture"] as! UIImage
 //        cell.txtRecommendation.text = model["txtRecommendation"] as! String
