@@ -13,6 +13,8 @@
 		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
+		719F0F382494DE780013063C /* BadgesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F0F372494DE780013063C /* BadgesCollectionViewCell.swift */; };
+		719F0F3A2494DFBC0013063C /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F0F392494DFBC0013063C /* Badges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719F0F372494DE780013063C /* BadgesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesCollectionViewCell.swift; sourceTree = "<group>"; };
+		719F0F392494DFBC0013063C /* Badges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
 				25432503248F9C7400452180 /* ViewController.swift */,
 				25432505248F9C7400452180 /* Main.storyboard */,
+				719F0F372494DE780013063C /* BadgesCollectionViewCell.swift */,
+				719F0F392494DFBC0013063C /* Badges.swift */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
 				2543250D248F9C7600452180 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719F0F3A2494DFBC0013063C /* Badges.swift in Sources */,
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
+				719F0F382494DE780013063C /* BadgesCollectionViewCell.swift in Sources */,
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
