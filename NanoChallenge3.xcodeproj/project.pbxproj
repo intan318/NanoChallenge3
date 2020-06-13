@@ -21,8 +21,6 @@
 		2516204F2493DBB40047B7AE /* MyCollectionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2516204D2493DBB40047B7AE /* MyCollectionsTableViewCell.xib */; };
 		25432500248F9C7400452180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254324FF248F9C7400452180 /* AppDelegate.swift */; };
 		25432502248F9C7400452180 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25432501248F9C7400452180 /* SceneDelegate.swift */; };
-		25432504248F9C7400452180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25432503248F9C7400452180 /* ViewController.swift */; };
-		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
 		25B463F824913B5C00ED5771 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B463F724913B5C00ED5771 /* Explore.storyboard */; };
@@ -60,8 +58,6 @@
 		254324FC248F9C7400452180 /* NanoChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254324FF248F9C7400452180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25432501248F9C7400452180 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25432503248F9C7400452180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25432506248F9C7400452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,8 +179,6 @@
 				25B464272493618500ED5771 /* Explore */,
 				254324FF248F9C7400452180 /* AppDelegate.swift */,
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
-				25432503248F9C7400452180 /* ViewController.swift */,
-				25432505248F9C7400452180 /* Main.storyboard */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
 				2543250D248F9C7600452180 /* Info.plist */,
@@ -297,7 +291,6 @@
 				2516204B2493DBA50047B7AE /* WhatsNextTableViewCell.xib in Resources */,
 				25B464312493622800ED5771 /* MountainsTableViewCell.xib in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
-				25432507248F9C7400452180 /* Main.storyboard in Resources */,
 				25EFAF552494BADD008CD05C /* WhatsNextCollectionViewCell.xib in Resources */,
 				25B4642D2493620400ED5771 /* Explore1TableViewCell.xib in Resources */,
 				25B464352493623A00ED5771 /* BeachTableViewCell.xib in Resources */,
@@ -316,7 +309,6 @@
 				25EFAF582494BE6E008CD05C /* MyCollectionViewCell.swift in Sources */,
 				25B4642C2493620400ED5771 /* Explore1TableViewCell.swift in Sources */,
 				25EFAF5B2494D500008CD05C /* TabBarViewController.swift in Sources */,
-				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
 				2516204E2493DBB40047B7AE /* MyCollectionsTableViewCell.swift in Sources */,
 				25B464042492020E00ED5771 /* ImgExploreCollectionViewCell.swift in Sources */,
@@ -335,14 +327,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25432505248F9C7400452180 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25432506248F9C7400452180 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2543250A248F9C7600452180 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
