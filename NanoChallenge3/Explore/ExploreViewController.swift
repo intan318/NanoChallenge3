@@ -19,7 +19,7 @@ class ExploreViewController: UIViewController {
     
     func setupTableView(){
         //regis tableview
-        tableView.register(UINib(nibName: "HeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "HeaderTableViewCellID")
+        tableView.register(UINib(nibName: "HeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "headerTableViewCellID")
         
         tableView.register(UINib(nibName: "MountainTableViewCell", bundle: nil), forCellReuseIdentifier: "MountainTableViewCell")
         
@@ -37,7 +37,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
                 if indexPath.row == 0 {
-                    let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderTableViewCellID") as! HeaderTableViewCell
+                    let cell = tableView.dequeueReusableCell(withIdentifier: "headerTableViewCellID") as! HeaderTableViewCell
 //                    cell.backgroundColor = .red
                     return cell
                 } else if indexPath.row == 1 {
@@ -58,7 +58,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
     } else if indexPath.row == 1 {
         return 305
     } else {
-        return 300
+        return 305
     }
     
 }

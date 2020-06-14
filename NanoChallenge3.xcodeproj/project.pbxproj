@@ -17,10 +17,14 @@
 		255A28F9249656320020524D /* WhatsNextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255A28F7249656320020524D /* WhatsNextTableViewCell.xib */; };
 		255A28FC249656410020524D /* MyCollectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */; };
 		255A28FD249656410020524D /* MyCollectionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255A28FB249656410020524D /* MyCollectionsTableViewCell.xib */; };
-		255DCF76249661870041EE8A /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF74249661870041EE8A /* HeaderTableViewCell.swift */; };
-		255DCF77249661870041EE8A /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF75249661870041EE8A /* HeaderTableViewCell.xib */; };
 		255DCF7E249663C10041EE8A /* WhatsNextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF7C249663C10041EE8A /* WhatsNextCollectionViewCell.swift */; };
 		255DCF7F249663C10041EE8A /* WhatsNextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF7D249663C10041EE8A /* WhatsNextCollectionViewCell.xib */; };
+		255DCF82249667320041EE8A /* MyCollectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF80249667320041EE8A /* MyCollectionsCollectionViewCell.swift */; };
+		255DCF83249667320041EE8A /* MyCollectionsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF81249667320041EE8A /* MyCollectionsCollectionViewCell.xib */; };
+		255DCF8624969E6E0041EE8A /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF8424969E6E0041EE8A /* NameTableViewCell.swift */; };
+		255DCF8724969E6E0041EE8A /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF8524969E6E0041EE8A /* NameTableViewCell.xib */; };
+		255DCF8A2496A2490041EE8A /* BeachCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF882496A2490041EE8A /* BeachCollectionViewCell.swift */; };
+		255DCF8B2496A2490041EE8A /* BeachCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */; };
 		25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF5D2494F8AF008CD05C /* Explore.storyboard */; };
 		25EFAF602494F8E2008CD05C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */; };
 		25EFAF632494F937008CD05C /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF622494F937008CD05C /* Collections.storyboard */; };
@@ -47,10 +51,14 @@
 		255A28F7249656320020524D /* WhatsNextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextTableViewCell.xib; sourceTree = "<group>"; };
 		255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionsTableViewCell.swift; sourceTree = "<group>"; };
 		255A28FB249656410020524D /* MyCollectionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionsTableViewCell.xib; sourceTree = "<group>"; };
-		255DCF74249661870041EE8A /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
-		255DCF75249661870041EE8A /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
 		255DCF7C249663C10041EE8A /* WhatsNextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextCollectionViewCell.swift; sourceTree = "<group>"; };
 		255DCF7D249663C10041EE8A /* WhatsNextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextCollectionViewCell.xib; sourceTree = "<group>"; };
+		255DCF80249667320041EE8A /* MyCollectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		255DCF81249667320041EE8A /* MyCollectionsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionsCollectionViewCell.xib; sourceTree = "<group>"; };
+		255DCF8424969E6E0041EE8A /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		255DCF8524969E6E0041EE8A /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
+		255DCF882496A2490041EE8A /* BeachCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachCollectionViewCell.swift; sourceTree = "<group>"; };
+		255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachCollectionViewCell.xib; sourceTree = "<group>"; };
 		25EFAF5D2494F8AF008CD05C /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		25EFAF622494F937008CD05C /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
@@ -117,8 +125,8 @@
 		255A28EF249649470020524D /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				255DCF74249661870041EE8A /* HeaderTableViewCell.swift */,
-				255DCF75249661870041EE8A /* HeaderTableViewCell.xib */,
+				255DCF8424969E6E0041EE8A /* NameTableViewCell.swift */,
+				255DCF8524969E6E0041EE8A /* NameTableViewCell.xib */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -139,6 +147,8 @@
 			children = (
 				255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */,
 				255A28FB249656410020524D /* MyCollectionsTableViewCell.xib */,
+				255DCF80249667320041EE8A /* MyCollectionsCollectionViewCell.swift */,
+				255DCF81249667320041EE8A /* MyCollectionsCollectionViewCell.xib */,
 			);
 			path = MyCollections;
 			sourceTree = "<group>";
@@ -194,6 +204,8 @@
 			children = (
 				25EFAF742494FDCE008CD05C /* BeachTableViewCell.swift */,
 				25EFAF752494FDCE008CD05C /* BeachTableViewCell.xib */,
+				255DCF882496A2490041EE8A /* BeachCollectionViewCell.swift */,
+				255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */,
 			);
 			path = Beach;
 			sourceTree = "<group>";
@@ -257,13 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */,
+				255DCF83249667320041EE8A /* MyCollectionsCollectionViewCell.xib in Resources */,
 				255DCF7F249663C10041EE8A /* WhatsNextCollectionViewCell.xib in Resources */,
+				255DCF8724969E6E0041EE8A /* NameTableViewCell.xib in Resources */,
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
 				25EFAF632494F937008CD05C /* Collections.storyboard in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
 				255A28F9249656320020524D /* WhatsNextTableViewCell.xib in Resources */,
+				255DCF8B2496A2490041EE8A /* BeachCollectionViewCell.xib in Resources */,
 				25EFAF7B2494FDE0008CD05C /* MountainTableViewCell.xib in Resources */,
-				255DCF77249661870041EE8A /* HeaderTableViewCell.xib in Resources */,
 				255A28FD249656410020524D /* MyCollectionsTableViewCell.xib in Resources */,
 				25EFAF772494FDCE008CD05C /* BeachTableViewCell.xib in Resources */,
 				25EFAF672494F972008CD05C /* TabBar.storyboard in Resources */,
@@ -280,9 +294,11 @@
 			files = (
 				25EFAF602494F8E2008CD05C /* ExploreViewController.swift in Sources */,
 				25EFAF762494FDCE008CD05C /* BeachTableViewCell.swift in Sources */,
+				255DCF8624969E6E0041EE8A /* NameTableViewCell.swift in Sources */,
+				255DCF82249667320041EE8A /* MyCollectionsCollectionViewCell.swift in Sources */,
+				255DCF8A2496A2490041EE8A /* BeachCollectionViewCell.swift in Sources */,
 				25EFAF7E2495052A008CD05C /* MountainCollectionViewCell.swift in Sources */,
 				25EFAF7A2494FDE0008CD05C /* MountainTableViewCell.swift in Sources */,
-				255DCF76249661870041EE8A /* HeaderTableViewCell.swift in Sources */,
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				255A28FC249656410020524D /* MyCollectionsTableViewCell.swift in Sources */,
 				25EFAF652494F93F008CD05C /* CollectionsViewController.swift in Sources */,

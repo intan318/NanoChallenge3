@@ -1,14 +1,14 @@
 //
-//  HeaderTableViewCell.swift
+//  NameTableViewCell.swift
 //  NanoChallenge3
 //
-//  Created by Intan Yoshana on 14/06/20.
+//  Created by Intan Yoshana on 15/06/20.
 //  Copyright © 2020 Intan Yoshana. All rights reserved.
 //
 
 import UIKit
 
-class HeaderTableViewCell: UITableViewCell {
+class NameTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

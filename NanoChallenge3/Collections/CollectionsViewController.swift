@@ -22,7 +22,7 @@ class CollectionsViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-         tableView.register(UINib(nibName: "HeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "HeaderTableViewCellID")
+        tableView.register(UINib(nibName: "NameTableViewCell", bundle: nil), forCellReuseIdentifier: "NameTableViewCellID")
         
         tableView.register(UINib(nibName: "WhatsNextTableViewCell", bundle: nil), forCellReuseIdentifier: "WhatsNextTableViewCellID")
         
@@ -40,7 +40,7 @@ extension CollectionsViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.row == 0 {
-                    let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderTableViewCellID") as! HeaderTableViewCell
+                    let cell = tableView.dequeueReusableCell(withIdentifier: "NameTableViewCellID") as! NameTableViewCell
         //            cell.backgroundColor = .red
                     return cell
     } else if indexPath.row == 1 {

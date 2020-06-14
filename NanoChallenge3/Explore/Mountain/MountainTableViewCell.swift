@@ -10,6 +10,32 @@ import UIKit
 
 class MountainTableViewCell: UITableViewCell {
 
+    var sampleData = [
+           [
+               "picture" : #imageLiteral(resourceName: "Gunung_Gede"),
+               "txtGunung" : "Salak Mountain",
+               "txtWaktu" : "20 min",
+           ],
+           
+           [
+               "picture" : #imageLiteral(resourceName: "Gunung_Gede"),
+               "txtGunung" : "Salak Mountain",
+               "txtWaktu" : "20 min",
+           ],
+           
+           [
+               "picture" : #imageLiteral(resourceName: "gunung ciremai"),
+               "txtGunung" : "Ciremai Mountain",
+               "txtWaktu" : "20 min",
+           ],
+           
+           [
+               "picture" : #imageLiteral(resourceName: "gunung bromo"),
+               "txtGunung" : "Bromo Mountain",
+               "txtWaktu" : "20 min",
+           ],
+       ]
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func awakeFromNib() {
@@ -21,14 +47,14 @@ class MountainTableViewCell: UITableViewCell {
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        collectionView.register(MountainCollectionViewCell.self, forCellWithReuseIdentifier: "MountainCollectionViewCell")
+        collectionView.register(UINib(nibName: "MountainCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "MountainCollectionViewCellID")
     }
     
 }
 
 extension MountainTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return sampleData.count
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -36,8 +62,14 @@ extension MountainTableViewCell: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MountainCollectionViewCell", for: indexPath) as! MountainCollectionViewCell
-        cell.backgroundColor = .black
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MountainCollectionViewCellID", for: indexPath) as! MountainCollectionViewCell
+//        cell.backgroundColor = .black
+        
+        let model = sampleData[indexPath.row]
+        cell.productImage.image = model["picture"] as? UIImage
+        cell.productMountainLabel.text = model ["txtGunung"] as? String
+        cell.productTimeLabel.text = model ["txtWaktu"] as? String
+        
         return cell
     }
     

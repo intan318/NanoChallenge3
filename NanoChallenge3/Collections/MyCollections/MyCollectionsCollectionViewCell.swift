@@ -1,5 +1,5 @@
 //
-//  WhatsNextCollectionViewCell.swift
+//  MyCollectionsCollectionViewCell.swift
 //  NanoChallenge3
 //
 //  Created by Intan Yoshana on 14/06/20.
@@ -8,10 +8,12 @@
 
 import UIKit
 
-class WhatsNextCollectionViewCell: UICollectionViewCell {
-
-    @IBOutlet weak var productNamaTempatLabel: UILabel!
+class MyCollectionsCollectionViewCell: UICollectionViewCell {
+    
+    
+    @IBOutlet weak var productWaktuLabel: UILabel!
     @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productNamaTempatLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

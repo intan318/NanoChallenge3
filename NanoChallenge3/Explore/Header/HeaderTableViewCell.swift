@@ -12,31 +12,31 @@ class HeaderTableViewCell: UITableViewCell {
     
     var sampleData = [
         [
-            "picture" : #imageLiteral(resourceName: "gunung salak"),
+            "picture" : #imageLiteral(resourceName: "nusapenida"),
             "txtRecommendation" : "Recommendation",
             "txtDestination" : "Nusa Penida",
         ],
         
         [
-            "picture" : #imageLiteral(resourceName: "jointheclub_button"),
+            "picture" : #imageLiteral(resourceName: "nusapenida"),
             "txtRecommendation" : "Recommendation",
             "txtDestination" : "Seminyak",
         ],
         
         [
-            "picture" : #imageLiteral(resourceName: "jointheclub_button"),
+            "picture" : #imageLiteral(resourceName: "nusapenida"),
             "txtRecommendation" : "Recommendation",
             "txtDestination" : "Nusa Dua",
         ],
         
         [
-            "picture" : #imageLiteral(resourceName: "gunung salak"),
+            "picture" : #imageLiteral(resourceName: "nusapenida"),
             "txtRecommendation" : "Recommendation",
             "txtDestination" : "Lombok",
         ],
         
         [
-            "picture" : #imageLiteral(resourceName: "gunung bromo"),
+            "picture" : #imageLiteral(resourceName: "nusapenida"),
             "txtRecommendation" : "Recommendation",
             "txtDestination" : "Anyer",
         ],

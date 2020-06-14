@@ -10,6 +10,10 @@ import UIKit
 
 class MountainCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet var productImage: UIImageView!
+    @IBOutlet var productMountainLabel: UILabel!
+    @IBOutlet var productTimeLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
