@@ -18,11 +18,8 @@ class ExploreViewController: UIViewController {
     }
     
     func setupTableView(){
-        tableView.delegate = self
-        tableView.dataSource = self
-        
         //regis tableview
-        tableView.register(UINib(nibName: "HeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "HeaderTableViewCell")
+        tableView.register(UINib(nibName: "HeaderTableViewCell", bundle: nil), forCellReuseIdentifier: "HeaderTableViewCellID")
         
         tableView.register(UINib(nibName: "MountainTableViewCell", bundle: nil), forCellReuseIdentifier: "MountainTableViewCell")
         
@@ -40,7 +37,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
                 if indexPath.row == 0 {
-                    let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderTableViewCell") as! HeaderTableViewCell
+                    let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderTableViewCellID") as! HeaderTableViewCell
 //                    cell.backgroundColor = .red
                     return cell
                 } else if indexPath.row == 1 {

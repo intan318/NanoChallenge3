@@ -10,6 +10,9 @@ import UIKit
 
 class HeaderCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var productDestinationLabel: UILabel!
+    @IBOutlet weak var productRecommendationLabel: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

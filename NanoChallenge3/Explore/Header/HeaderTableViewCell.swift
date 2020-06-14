@@ -9,7 +9,38 @@
 import UIKit
 
 class HeaderTableViewCell: UITableViewCell {
-
+    
+    var sampleData = [
+        [
+            "picture" : #imageLiteral(resourceName: "gunung salak"),
+            "txtRecommendation" : "Recommendation",
+            "txtDestination" : "Nusa Penida",
+        ],
+        
+        [
+            "picture" : #imageLiteral(resourceName: "jointheclub_button"),
+            "txtRecommendation" : "Recommendation",
+            "txtDestination" : "Seminyak",
+        ],
+        
+        [
+            "picture" : #imageLiteral(resourceName: "jointheclub_button"),
+            "txtRecommendation" : "Recommendation",
+            "txtDestination" : "Nusa Dua",
+        ],
+        
+        [
+            "picture" : #imageLiteral(resourceName: "gunung salak"),
+            "txtRecommendation" : "Recommendation",
+            "txtDestination" : "Lombok",
+        ],
+        
+        [
+            "picture" : #imageLiteral(resourceName: "gunung bromo"),
+            "txtRecommendation" : "Recommendation",
+            "txtDestination" : "Anyer",
+        ],
+    ]
     
     @IBOutlet weak var collectionView: UICollectionView!
     override func awakeFromNib() {
@@ -22,7 +53,7 @@ class HeaderTableViewCell: UITableViewCell {
         collectionView.delegate = self
         collectionView.dataSource = self
         
-        collectionView.register(HeaderCollectionViewCell.self, forCellWithReuseIdentifier: "HeaderCollectionViewCell")
+        collectionView.register(UINib(nibName: "HeaderCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "headerCollectionViewCellID")
     }
     
 }
@@ -30,7 +61,7 @@ class HeaderTableViewCell: UITableViewCell {
 extension HeaderTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return sampleData.count
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -38,10 +69,20 @@ extension HeaderTableViewCell: UICollectionViewDelegate, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeaderCollectionViewCell", for: indexPath) as! HeaderCollectionViewCell
+         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "headerCollectionViewCellID", for: indexPath) as! HeaderCollectionViewCell
         cell.backgroundColor = .black
         cell.layer.cornerRadius = 17
     
+        /*
+        let img = cell.viewWithTag(1) as! UIImageView
+        let txt1 = cell.viewWithTag(2) as! UILabel
+        let txt2 = cell.viewWithTag(3) as! UILabel
+        */
+        let model = sampleData[indexPath.row]
+        cell.productImage.image = model["picture"] as? UIImage
+        cell.productRecommendationLabel.text = model ["txtRecommendation"] as? String
+        cell.productDestinationLabel.text = model ["txtDestination"] as? String
+        
         return cell
     }
     
