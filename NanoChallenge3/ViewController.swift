@@ -24,14 +24,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func initDataBadges() {
-        let badge1 = Badges(title: "Go for a journey", point: "+100", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge2 = Badges(title: "Share a journey", point: "+150", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge3 = Badges(title: "Give Rating", point: "+200", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge4 = Badges(title: "Finish a Journey", point: "+250", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge5 = Badges(title: "Join the Club", point: "+300", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge6 = Badges(title: "Invite Friend", point: "+350", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge7 = Badges(title: "Give Rating", point: "+400", badgeImage: #imageLiteral(resourceName: "badge-512"))
-        let badge8 = Badges(title: "Join the Club", point: "+450", badgeImage: #imageLiteral(resourceName: "badge-512"))
+        let badge1 = Badges(title: "Go for a journey", point: "+100", badgeImage: UIImage(named: "badge-1"))
+        let badge2 = Badges(title: "Share a journey", point: "+150", badgeImage: UIImage(named: "badge-2"))
+        let badge3 = Badges(title: "Give Rating", point: "+200", badgeImage: UIImage(named: "badge-3"))
+        let badge4 = Badges(title: "Finish a Journey", point: "+250", badgeImage: UIImage(named: "badge-4"))
+        let badge5 = Badges(title: "Join the Club", point: "+300", badgeImage: UIImage(named: "badge-5"))
+        let badge6 = Badges(title: "Invite Friend", point: "+350", badgeImage: UIImage(named: "badge-6"))
+        let badge7 = Badges(title: "Give Rating", point: "+400", badgeImage: UIImage(named: "badge-7"))
+        let badge8 = Badges(title: "Join the Club", point: "+450", badgeImage: UIImage(named: "badge-8"))
+        let badge9 = Badges(title: "Go for a journey", point: "+100", badgeImage: UIImage(named: "badge-lock"))
+        let badge10 = Badges(title: "Share a journey", point: "+150", badgeImage: UIImage(named: "badge-lock"))
+        let badge11 = Badges(title: "Give Rating", point: "+200", badgeImage: UIImage(named: "badge-lock"))
+        let badge12 = Badges(title: "Finish a Journey", point: "+250", badgeImage: UIImage(named: "badge-lock"))
         
         dataBadge.append(badge1)
         dataBadge.append(badge2)
@@ -41,6 +45,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         dataBadge.append(badge6)
         dataBadge.append(badge7)
         dataBadge.append(badge8)
+        dataBadge.append(badge9)
+        dataBadge.append(badge10)
+        dataBadge.append(badge11)
+        dataBadge.append(badge12)
         
         collectionView.reloadData()
     }
