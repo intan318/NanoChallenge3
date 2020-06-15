@@ -344,81 +344,10 @@
             </objects>
             <point key="canvasLocation" x="200.00000000000003" y="137.94642857142856"/>
         </scene>
-        <!--Fika View Controller-->
-        <scene sceneID="Td6-4C-kuj">
-            <objects>
-                <viewController id="AsT-gf-fxj" customClass="FikaViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fqw-Pa-VyM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn0-Q7-y98">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="845-12-HJ7">
-                                <rect key="frame" x="32" y="64" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="pageIndicatorTintColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="currentPageIndicatorTintColor" red="0.98045605420000004" green="0.98821932079999997" blue="0.98823612930000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </pageControl>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-ask-fin" id="z16-st-nfM">
-                                <rect key="frame" x="350" y="64" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upI-3r-Nym">
-                                <rect key="frame" x="92" y="676" width="72" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icon-audio-fin"/>
-                                <connections>
-                                    <action selector="audioButtonTapped:" destination="AsT-gf-fxj" eventType="touchUpInside" id="Iek-Ip-paA"/>
-                                    <segue destination="nfA-Ng-L2D" kind="show" identifier="goToAudioStory" id="Sqc-b8-6I5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi0-9g-8qL">
-                                <rect key="frame" x="250" y="676" width="72" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icon-VR-fin"/>
-                                <connections>
-                                    <action selector="VRButtonTapped:" destination="AsT-gf-fxj" eventType="touchUpInside" id="C1V-1v-UXw"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="cn0-Q7-y98" firstAttribute="top" secondItem="Fqw-Pa-VyM" secondAttribute="top" id="Avl-fR-2lL"/>
-                            <constraint firstAttribute="bottom" secondItem="cn0-Q7-y98" secondAttribute="bottom" id="J6M-Q1-TMh"/>
-                            <constraint firstItem="cn0-Q7-y98" firstAttribute="leading" secondItem="Fqw-Pa-VyM" secondAttribute="leading" id="luw-ei-W4i"/>
-                            <constraint firstAttribute="trailing" secondItem="cn0-Q7-y98" secondAttribute="trailing" id="zC6-Ox-Thf"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="GaK-tl-QS7"/>
-                    </view>
-                    <connections>
-                        <outlet property="askButton" destination="z16-st-nfM" id="EgR-F8-Yxb"/>
-                        <outlet property="pageControl" destination="845-12-HJ7" id="6sN-gG-7CH"/>
-                        <outlet property="scrollView" destination="cn0-Q7-y98" id="9aE-jb-3G8"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7oW-on-E8L" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1952" y="805"/>
-        </scene>
-        <!--AudioStory-->
-        <scene sceneID="HhI-H8-565">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AudioStory" id="nfA-Ng-L2D" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="EJa-qk-Eam"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Df-Jc-AYs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2466" y="979"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Nusa Penida" width="960" height="640"/>
         <image name="beachIcon" width="2000" height="2000"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
-        <image name="icon-VR-fin" width="72" height="72"/>
-        <image name="icon-ask-fin" width="48" height="48"/>
-        <image name="icon-audio-fin" width="72" height="72"/>
     </resources>
 </document>

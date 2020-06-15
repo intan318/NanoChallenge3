@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MyZ-gl-8rV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fika View Controller-->
+        <scene sceneID="Yxt-w5-Yxq">
+            <objects>
+                <viewController storyboardIdentifier="StoryLatest" id="lFB-gg-jI6" customClass="FikaViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fmB-eL-I9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RE-6t-gMq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="CyK-IA-1cU">
+                                <rect key="frame" x="32" y="64" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.98045605420000004" green="0.98821932079999997" blue="0.98823612930000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </pageControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-ask-fin" id="Udb-BE-e5I">
+                                <rect key="frame" x="350" y="64" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yJ-hL-H3S">
+                                <rect key="frame" x="92" y="676" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icon-audio-fin"/>
+                                <connections>
+                                    <action selector="audioButtonTapped:" destination="lFB-gg-jI6" eventType="touchUpInside" id="Le0-c0-P5U"/>
+                                    <segue destination="yJA-1t-ryv" kind="show" identifier="goToAudioStory" id="oQv-Zw-J4C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6W-di-GRl">
+                                <rect key="frame" x="250" y="676" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icon-VR-fin"/>
+                                <connections>
+                                    <action selector="VRButtonTapped:" destination="lFB-gg-jI6" eventType="touchUpInside" id="aqA-fd-4q3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1RE-6t-gMq" firstAttribute="leading" secondItem="fmB-eL-I9Z" secondAttribute="leading" id="DAu-0k-VGf"/>
+                            <constraint firstItem="1RE-6t-gMq" firstAttribute="top" secondItem="fmB-eL-I9Z" secondAttribute="top" id="YF0-Ex-Ju8"/>
+                            <constraint firstAttribute="trailing" secondItem="1RE-6t-gMq" secondAttribute="trailing" id="YaD-hl-Qnh"/>
+                            <constraint firstAttribute="bottom" secondItem="1RE-6t-gMq" secondAttribute="bottom" id="jMy-QQ-CDC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3rH-ip-IEV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5tR-9w-nSx"/>
+                    <connections>
+                        <outlet property="askButton" destination="Udb-BE-e5I" id="qhV-gG-v9V"/>
+                        <outlet property="pageControl" destination="CyK-IA-1cU" id="bG4-T5-CIb"/>
+                        <outlet property="scrollView" destination="1RE-6t-gMq" id="Oi4-mV-132"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPy-ig-Qij" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2857.971014492754" y="804.91071428571422"/>
+        </scene>
+        <!--AudioStory-->
+        <scene sceneID="LB5-3P-xfu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AudioStory" id="yJA-1t-ryv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xQh-43-QTC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EcP-sM-5HA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3372.4637681159425" y="978.34821428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="okN-Rp-4In">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="MyZ-gl-8rV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hpw-7y-v43">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lFB-gg-jI6" kind="relationship" relationship="rootViewController" id="Cw4-bj-D3n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jB-nT-Xwg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1950.7246376811595" y="804.91071428571422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-VR-fin" width="72" height="72"/>
+        <image name="icon-ask-fin" width="48" height="48"/>
+        <image name="icon-audio-fin" width="72" height="72"/>
+    </resources>
+</document>

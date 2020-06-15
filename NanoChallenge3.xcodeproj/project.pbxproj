@@ -30,6 +30,7 @@
 		25BAA5A7249758150026AF72 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF712494FDC2008CD05C /* HeaderTableViewCell.xib */; };
 		25BAA5A8249758190026AF72 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF8124950602008CD05C /* HeaderCollectionViewCell.xib */; };
 		25BAA5A92497595B0026AF72 /* MountainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF7D2495052A008CD05C /* MountainCollectionViewCell.xib */; };
+		25D558F92497E50C00C0756F /* LatestStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D558F72497E42700C0756F /* LatestStory.storyboard */; };
 		25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF5D2494F8AF008CD05C /* Explore.storyboard */; };
 		25EFAF602494F8E2008CD05C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */; };
 		25EFAF632494F937008CD05C /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF622494F937008CD05C /* Collections.storyboard */; };
@@ -75,6 +76,7 @@
 		255DCF8524969E6E0041EE8A /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
 		255DCF882496A2490041EE8A /* BeachCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachCollectionViewCell.swift; sourceTree = "<group>"; };
 		255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeachCollectionViewCell.xib; sourceTree = "<group>"; };
+		25D558F72497E42700C0756F /* LatestStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LatestStory.storyboard; sourceTree = "<group>"; };
 		25EFAF5D2494F8AF008CD05C /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		25EFAF622494F937008CD05C /* Collections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				25432503248F9C7400452180 /* ViewController.swift */,
 				25432505248F9C7400452180 /* Main.storyboard */,
 				25EFAF662494F972008CD05C /* TabBar.storyboard */,
+				25D558F72497E42700C0756F /* LatestStory.storyboard */,
 				25EFAF682494F979008CD05C /* TabBarViewController.swift */,
 				D14EE012249551EA0027629B /* JoinClubVC.swift */,
 				D13D95BD249514670014A702 /* ExploreVC.swift */,
@@ -337,6 +340,7 @@
 				71C541212493965100FAB901 /* heavy0rain.wav in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
 				713F1B2C249216F900519D6A /* Slide.xib in Resources */,
+				25D558F92497E50C00C0756F /* LatestStory.storyboard in Resources */,
 				25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */,
 				255DCF83249667320041EE8A /* MyCollectionsCollectionViewCell.xib in Resources */,
 				255DCF7F249663C10041EE8A /* WhatsNextCollectionViewCell.xib in Resources */,
