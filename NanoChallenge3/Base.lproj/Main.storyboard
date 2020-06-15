@@ -1,8 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3i-2H-TCT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="eX1-j4-Oqg">
+                                <rect key="frame" x="32" y="64" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.98045605420000004" green="0.98821932079999997" blue="0.98823612930000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </pageControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-ask-fin" id="TsZ-Ab-Q7B">
+                                <rect key="frame" x="350" y="64" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiC-Sv-Cxv">
+                                <rect key="frame" x="92" y="676" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icon-audio-fin"/>
+                                <connections>
+                                    <action selector="audioButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3OG-Qg-GBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS0-rh-3HH">
+                                <rect key="frame" x="250" y="676" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icon-VR-fin"/>
+                                <connections>
+                                    <action selector="VRButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lzb-8o-oNv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="L3i-2H-TCT" secondAttribute="trailing" id="LGv-dw-uPe"/>
+                            <constraint firstItem="L3i-2H-TCT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="S7x-jG-eSH"/>
+                            <constraint firstAttribute="bottom" secondItem="L3i-2H-TCT" secondAttribute="bottom" id="iEB-uv-RZK"/>
+                            <constraint firstItem="L3i-2H-TCT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nQE-rJ-gKr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="askButton" destination="TsZ-Ab-Q7B" id="PNS-vD-28E"/>
+                        <outlet property="pageControl" destination="eX1-j4-Oqg" id="uI4-c3-TKV"/>
+                        <outlet property="scrollView" destination="L3i-2H-TCT" id="mkf-m3-Gdv"/>
+                        <segue destination="1gD-aR-HOQ" kind="show" identifier="goToAudioStory" id="Rea-2K-PiP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--AudioStory-->
+        <scene sceneID="v9K-hb-a8A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AudioStory" id="1gD-aR-HOQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ecD-SJ-TKF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vt-Xa-kL4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-VR-fin" width="72" height="72"/>
+        <image name="icon-ask-fin" width="48" height="48"/>
+        <image name="icon-audio-fin" width="72" height="72"/>
+    </resources>
 </document>
