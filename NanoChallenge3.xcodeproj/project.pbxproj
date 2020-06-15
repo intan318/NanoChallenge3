@@ -13,6 +13,7 @@
 		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
+		712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */; };
 		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
 		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
 		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
@@ -29,6 +30,7 @@
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "audio-pendakian.mp3"; sourceTree = "<group>"; };
 		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				71C541202493965100FAB901 /* heavy0rain.wav */,
+				712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */,
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
 				71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */,
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,

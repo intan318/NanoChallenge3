@@ -22,7 +22,7 @@ class AudioStoryController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         
     do{
-        let audioPlayer = Bundle.main.path (forResource: "heavy0rain", ofType: "wav" )
+        let audioPlayer = Bundle.main.path (forResource: "audio-pendakian", ofType: "mp3" )
         try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPlayer!) as URL)
         
     }
