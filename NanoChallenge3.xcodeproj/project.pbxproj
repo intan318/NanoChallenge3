@@ -13,12 +13,6 @@
 		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
-		712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */; };
-		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
-		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
-		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
-		71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1A22D249266FB002360B5 /* AudioStory.storyboard */; };
-		71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1A22F24926735002360B5 /* AudioStoryController.swift */; };
 		255A28F8249656320020524D /* WhatsNextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A28F6249656320020524D /* WhatsNextTableViewCell.swift */; };
 		255A28F9249656320020524D /* WhatsNextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255A28F7249656320020524D /* WhatsNextTableViewCell.xib */; };
 		255A28FC249656410020524D /* MyCollectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */; };
@@ -47,6 +41,13 @@
 		25EFAF7A2494FDE0008CD05C /* MountainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF782494FDE0008CD05C /* MountainTableViewCell.swift */; };
 		25EFAF7B2494FDE0008CD05C /* MountainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF792494FDE0008CD05C /* MountainTableViewCell.xib */; };
 		25EFAF7E2495052A008CD05C /* MountainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF7C2495052A008CD05C /* MountainCollectionViewCell.swift */; };
+		712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */; };
+		712C6B1A2497DFFF00D04F96 /* FikaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C6B192497DFFF00D04F96 /* FikaViewController.swift */; };
+		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
+		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
+		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
+		71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1A22D249266FB002360B5 /* AudioStory.storyboard */; };
+		71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1A22F24926735002360B5 /* AudioStoryController.swift */; };
 		D13D95BC2494F18B0014A702 /* addJourneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D95BB2494F18B0014A702 /* addJourneyVC.swift */; };
 		D13D95BE249514670014A702 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D95BD249514670014A702 /* ExploreVC.swift */; };
 		D14EE0112495421D0027629B /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EE0102495421D0027629B /* Points.swift */; };
@@ -62,12 +63,6 @@
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "audio-pendakian.mp3"; sourceTree = "<group>"; };
-		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
-		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
-		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
-		71E1A22D249266FB002360B5 /* AudioStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioStory.storyboard; sourceTree = "<group>"; };
-		71E1A22F24926735002360B5 /* AudioStoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStoryController.swift; sourceTree = "<group>"; };
 		255A28F6249656320020524D /* WhatsNextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextTableViewCell.swift; sourceTree = "<group>"; };
 		255A28F7249656320020524D /* WhatsNextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextTableViewCell.xib; sourceTree = "<group>"; };
 		255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -96,6 +91,13 @@
 		25EFAF7D2495052A008CD05C /* MountainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MountainCollectionViewCell.xib; sourceTree = "<group>"; };
 		25EFAF8024950602008CD05C /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		25EFAF8124950602008CD05C /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "audio-pendakian.mp3"; sourceTree = "<group>"; };
+		712C6B192497DFFF00D04F96 /* FikaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FikaViewController.swift; sourceTree = "<group>"; };
+		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
+		71E1A22D249266FB002360B5 /* AudioStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioStory.storyboard; sourceTree = "<group>"; };
+		71E1A22F24926735002360B5 /* AudioStoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStoryController.swift; sourceTree = "<group>"; };
 		D13D95BB2494F18B0014A702 /* addJourneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addJourneyVC.swift; sourceTree = "<group>"; };
 		D13D95BD249514670014A702 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
 		D14EE0102495421D0027629B /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
@@ -113,15 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        254324F3248F9C7400452180 = {
-            isa = PBXGroup;
-            children = (
-                25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
-                254324FE248F9C7400452180 /* NanoChallenge3 */,
-                254324FD248F9C7400452180 /* Products */,
-            );
-            sourceTree = "<group>";
-        };
+		254324F3248F9C7400452180 = {
+			isa = PBXGroup;
+			children = (
+				25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
+				254324FE248F9C7400452180 /* NanoChallenge3 */,
+				254324FD248F9C7400452180 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
 		254324FD248F9C7400452180 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,41 +153,11 @@
 				71C5411F249395E600FAB901 /* Sound */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
 				2543250D248F9C7600452180 /* Info.plist */,
+				712C6B192497DFFF00D04F96 /* FikaViewController.swift */,
 			);
 			path = NanoChallenge3;
 			sourceTree = "<group>";
 		};
-
-		71C5411F249395E600FAB901 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				71C541202493965100FAB901 /* heavy0rain.wav */,
-				712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
-		71E1A23124926740002360B5 /* Audio Story Page */ = {
-			isa = PBXGroup;
-			children = (
-				71E1A22D249266FB002360B5 /* AudioStory.storyboard */,
-				71E1A22F24926735002360B5 /* AudioStoryController.swift */,
-			);
-			path = "Audio Story Page";
-			sourceTree = "<group>";
-		};
-		71F513B6249228260004B353 /* Main Page */ = {
-			isa = PBXGroup;
-			children = (
-				25432503248F9C7400452180 /* ViewController.swift */,
-				713F1B29249216C900519D6A /* Slide.swift */,
-				25432505248F9C7400452180 /* Main.storyboard */,
-				713F1B2B249216F900519D6A /* Slide.xib */,
-			);
-			path = "Main Page";
-            sourceTree = "<group>";
-        };
-
 		255A28EF249649470020524D /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +245,33 @@
 			path = Beach;
 			sourceTree = "<group>";
 		};
+		71C5411F249395E600FAB901 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				71C541202493965100FAB901 /* heavy0rain.wav */,
+				712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		71E1A23124926740002360B5 /* Audio Story Page */ = {
+			isa = PBXGroup;
+			children = (
+				71E1A22D249266FB002360B5 /* AudioStory.storyboard */,
+				71E1A22F24926735002360B5 /* AudioStoryController.swift */,
+			);
+			path = "Audio Story Page";
+			sourceTree = "<group>";
+		};
+		71F513B6249228260004B353 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				713F1B29249216C900519D6A /* Slide.swift */,
+				713F1B2B249216F900519D6A /* Slide.xib */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -331,7 +330,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */,
 				2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */,
 				71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */,
@@ -339,7 +337,6 @@
 				71C541212493965100FAB901 /* heavy0rain.wav in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
 				713F1B2C249216F900519D6A /* Slide.xib in Resources */,
-
 				25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */,
 				255DCF83249667320041EE8A /* MyCollectionsCollectionViewCell.xib in Resources */,
 				255DCF7F249663C10041EE8A /* WhatsNextCollectionViewCell.xib in Resources */,
@@ -378,6 +375,7 @@
 				25EFAF7A2494FDE0008CD05C /* MountainTableViewCell.swift in Sources */,
 				25432504248F9C7400452180 /* ViewController.swift in Sources */,
 				255A28FC249656410020524D /* MyCollectionsTableViewCell.swift in Sources */,
+				712C6B1A2497DFFF00D04F96 /* FikaViewController.swift in Sources */,
 				25EFAF652494F93F008CD05C /* CollectionsViewController.swift in Sources */,
 				255A28F8249656320020524D /* WhatsNextTableViewCell.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
@@ -535,11 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-
-				DEVELOPMENT_TEAM = 3NKS4UF4NS;
-
 				DEVELOPMENT_TEAM = WLTH7M8V55;
-
 				INFOPLIST_FILE = NanoChallenge3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,11 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-
-				DEVELOPMENT_TEAM = 3NKS4UF4NS;
-
 				DEVELOPMENT_TEAM = WLTH7M8V55;
-
 				INFOPLIST_FILE = NanoChallenge3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
