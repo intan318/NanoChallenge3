@@ -13,14 +13,12 @@
 		25432507248F9C7400452180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25432505248F9C7400452180 /* Main.storyboard */; };
 		25432509248F9C7600452180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25432508248F9C7600452180 /* Assets.xcassets */; };
 		2543250C248F9C7600452180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2543250A248F9C7600452180 /* LaunchScreen.storyboard */; };
-
 		712C6AF42497372B00D04F96 /* audio-pendakian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */; };
 		713F1B2A249216C900519D6A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F1B29249216C900519D6A /* Slide.swift */; };
 		713F1B2C249216F900519D6A /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713F1B2B249216F900519D6A /* Slide.xib */; };
 		71C541212493965100FAB901 /* heavy0rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 71C541202493965100FAB901 /* heavy0rain.wav */; };
 		71E1A22E249266FB002360B5 /* AudioStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E1A22D249266FB002360B5 /* AudioStory.storyboard */; };
 		71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1A22F24926735002360B5 /* AudioStoryController.swift */; };
-
 		255A28F8249656320020524D /* WhatsNextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A28F6249656320020524D /* WhatsNextTableViewCell.swift */; };
 		255A28F9249656320020524D /* WhatsNextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255A28F7249656320020524D /* WhatsNextTableViewCell.xib */; };
 		255A28FC249656410020524D /* MyCollectionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */; };
@@ -49,7 +47,10 @@
 		25EFAF7A2494FDE0008CD05C /* MountainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF782494FDE0008CD05C /* MountainTableViewCell.swift */; };
 		25EFAF7B2494FDE0008CD05C /* MountainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF792494FDE0008CD05C /* MountainTableViewCell.xib */; };
 		25EFAF7E2495052A008CD05C /* MountainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF7C2495052A008CD05C /* MountainCollectionViewCell.swift */; };
-
+		D13D95BC2494F18B0014A702 /* addJourneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D95BB2494F18B0014A702 /* addJourneyVC.swift */; };
+		D13D95BE249514670014A702 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D95BD249514670014A702 /* ExploreVC.swift */; };
+		D14EE0112495421D0027629B /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EE0102495421D0027629B /* Points.swift */; };
+		D14EE013249551EA0027629B /* JoinClubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EE012249551EA0027629B /* JoinClubVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,14 +62,12 @@
 		25432508248F9C7600452180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2543250B248F9C7600452180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2543250D248F9C7600452180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
 		712C6AF32497372B00D04F96 /* audio-pendakian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "audio-pendakian.mp3"; sourceTree = "<group>"; };
 		713F1B29249216C900519D6A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		713F1B2B249216F900519D6A /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		71C541202493965100FAB901 /* heavy0rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavy0rain.wav; sourceTree = "<group>"; };
 		71E1A22D249266FB002360B5 /* AudioStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioStory.storyboard; sourceTree = "<group>"; };
 		71E1A22F24926735002360B5 /* AudioStoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStoryController.swift; sourceTree = "<group>"; };
-
 		255A28F6249656320020524D /* WhatsNextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNextTableViewCell.swift; sourceTree = "<group>"; };
 		255A28F7249656320020524D /* WhatsNextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsNextTableViewCell.xib; sourceTree = "<group>"; };
 		255A28FA249656410020524D /* MyCollectionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -97,7 +96,10 @@
 		25EFAF7D2495052A008CD05C /* MountainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MountainCollectionViewCell.xib; sourceTree = "<group>"; };
 		25EFAF8024950602008CD05C /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
 		25EFAF8124950602008CD05C /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
-
+		D13D95BB2494F18B0014A702 /* addJourneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addJourneyVC.swift; sourceTree = "<group>"; };
+		D13D95BD249514670014A702 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		D14EE0102495421D0027629B /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		D14EE012249551EA0027629B /* JoinClubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinClubVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				25EFAF5C2494F883008CD05C /* Explore */,
 				25EFAF612494F901008CD05C /* Collections */,
 				254324FF248F9C7400452180 /* AppDelegate.swift */,
+				D14EE0102495421D0027629B /* Points.swift */,
 				25432501248F9C7400452180 /* SceneDelegate.swift */,
 				71F513B6249228260004B353 /* Main Page */,
 				71E1A23124926740002360B5 /* Audio Story Page */,
@@ -141,6 +144,9 @@
 				25432505248F9C7400452180 /* Main.storyboard */,
 				25EFAF662494F972008CD05C /* TabBar.storyboard */,
 				25EFAF682494F979008CD05C /* TabBarViewController.swift */,
+				D14EE012249551EA0027629B /* JoinClubVC.swift */,
+				D13D95BD249514670014A702 /* ExploreVC.swift */,
+				D13D95BB2494F18B0014A702 /* addJourneyVC.swift */,
 				25432508248F9C7600452180 /* Assets.xcassets */,
 				71C5411F249395E600FAB901 /* Sound */,
 				2543250A248F9C7600452180 /* LaunchScreen.storyboard */,
@@ -375,14 +381,16 @@
 				25EFAF652494F93F008CD05C /* CollectionsViewController.swift in Sources */,
 				255A28F8249656320020524D /* WhatsNextTableViewCell.swift in Sources */,
 				25432500248F9C7400452180 /* AppDelegate.swift in Sources */,
-
 				71E1A23024926735002360B5 /* AudioStoryController.swift in Sources */,
-
 				255DCF7E249663C10041EE8A /* WhatsNextCollectionViewCell.swift in Sources */,
 				25EFAF692494F979008CD05C /* TabBarViewController.swift in Sources */,
-
 				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
 				713F1B2A249216C900519D6A /* Slide.swift in Sources */,
+				D14EE013249551EA0027629B /* JoinClubVC.swift in Sources */,
+				D13D95BE249514670014A702 /* ExploreVC.swift in Sources */,
+				25432502248F9C7400452180 /* SceneDelegate.swift in Sources */,
+				D14EE0112495421D0027629B /* Points.swift in Sources */,
+				D13D95BC2494F18B0014A702 /* addJourneyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
