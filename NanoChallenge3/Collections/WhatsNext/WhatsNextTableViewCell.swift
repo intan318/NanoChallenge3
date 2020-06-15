@@ -49,7 +49,7 @@ class WhatsNextTableViewCell: UITableViewCell {
     collectionView.delegate = self
     collectionView.dataSource = self
     
-    collectionView.register(UINib(nibName: "WhatsNextCollectionView", bundle: nil), forCellWithReuseIdentifier: "WhatsNextCollectionViewID")
+    collectionView.register(UINib(nibName: "WhatsNextCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "WhatsNextCollectionViewCellID")
     }
     
 }

@@ -41,8 +41,9 @@ class HeaderTableViewCell: UITableViewCell {
             "txtDestination" : "Anyer",
         ],
     ]
-    
     @IBOutlet weak var collectionView: UICollectionView!
+    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -50,8 +51,6 @@ class HeaderTableViewCell: UITableViewCell {
     }
 
     func setupCollectionView(){
-        collectionView.delegate = self
-        collectionView.dataSource = self
         
         collectionView.register(UINib(nibName: "HeaderCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "headerCollectionViewCellID")
     }

@@ -25,6 +25,11 @@
 		255DCF8724969E6E0041EE8A /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF8524969E6E0041EE8A /* NameTableViewCell.xib */; };
 		255DCF8A2496A2490041EE8A /* BeachCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DCF882496A2490041EE8A /* BeachCollectionViewCell.swift */; };
 		255DCF8B2496A2490041EE8A /* BeachCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */; };
+		25BAA5A5249757CF0026AF72 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF702494FDC2008CD05C /* HeaderTableViewCell.swift */; };
+		25BAA5A6249757E20026AF72 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF8024950602008CD05C /* HeaderCollectionViewCell.swift */; };
+		25BAA5A7249758150026AF72 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF712494FDC2008CD05C /* HeaderTableViewCell.xib */; };
+		25BAA5A8249758190026AF72 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF8124950602008CD05C /* HeaderCollectionViewCell.xib */; };
+		25BAA5A92497595B0026AF72 /* MountainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF7D2495052A008CD05C /* MountainCollectionViewCell.xib */; };
 		25EFAF5E2494F8AF008CD05C /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF5D2494F8AF008CD05C /* Explore.storyboard */; };
 		25EFAF602494F8E2008CD05C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */; };
 		25EFAF632494F937008CD05C /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EFAF622494F937008CD05C /* Collections.storyboard */; };
@@ -91,6 +96,7 @@
 		254324F3248F9C7400452180 = {
 			isa = PBXGroup;
 			children = (
+				25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
 				254324FE248F9C7400452180 /* NanoChallenge3 */,
 				254324FD248F9C7400452180 /* Products */,
 			);
@@ -157,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				25EFAF5D2494F8AF008CD05C /* Explore.storyboard */,
-				25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
 				25EFAF6E2494FC66008CD05C /* Mountain */,
 				25EFAF6F2494FC6F008CD05C /* Beach */,
 				25EFAF6D2494FC23008CD05C /* Header */,
@@ -277,10 +282,13 @@
 				25432509248F9C7600452180 /* Assets.xcassets in Resources */,
 				255A28F9249656320020524D /* WhatsNextTableViewCell.xib in Resources */,
 				255DCF8B2496A2490041EE8A /* BeachCollectionViewCell.xib in Resources */,
+				25BAA5A92497595B0026AF72 /* MountainCollectionViewCell.xib in Resources */,
 				25EFAF7B2494FDE0008CD05C /* MountainTableViewCell.xib in Resources */,
 				255A28FD249656410020524D /* MyCollectionsTableViewCell.xib in Resources */,
 				25EFAF772494FDCE008CD05C /* BeachTableViewCell.xib in Resources */,
 				25EFAF672494F972008CD05C /* TabBar.storyboard in Resources */,
+				25BAA5A8249758190026AF72 /* HeaderCollectionViewCell.xib in Resources */,
+				25BAA5A7249758150026AF72 /* HeaderTableViewCell.xib in Resources */,
 				25432507248F9C7400452180 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BAA5A5249757CF0026AF72 /* HeaderTableViewCell.swift in Sources */,
 				25EFAF602494F8E2008CD05C /* ExploreViewController.swift in Sources */,
+				25BAA5A6249757E20026AF72 /* HeaderCollectionViewCell.swift in Sources */,
 				25EFAF762494FDCE008CD05C /* BeachTableViewCell.swift in Sources */,
 				255DCF8624969E6E0041EE8A /* NameTableViewCell.swift in Sources */,
 				255DCF82249667320041EE8A /* MyCollectionsCollectionViewCell.swift in Sources */,
