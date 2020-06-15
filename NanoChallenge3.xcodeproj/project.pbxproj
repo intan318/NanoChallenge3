@@ -111,15 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		254324F3248F9C7400452180 = {
-			isa = PBXGroup;
-			children = (
-				25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
-				254324FE248F9C7400452180 /* NanoChallenge3 */,
-				254324FD248F9C7400452180 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
+        254324F3248F9C7400452180 = {
+            isa = PBXGroup;
+            children = (
+                25EFAF5F2494F8E2008CD05C /* ExploreViewController.swift */,
+                254324FE248F9C7400452180 /* NanoChallenge3 */,
+                254324FD248F9C7400452180 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
 		254324FD248F9C7400452180 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +177,8 @@
 				713F1B2B249216F900519D6A /* Slide.xib */,
 			);
 			path = "Main Page";
+            sourceTree = "<group>";
+        };
 
 		255A28EF249649470020524D /* Header */ = {
 			isa = PBXGroup;
@@ -263,7 +265,6 @@
 				255DCF892496A2490041EE8A /* BeachCollectionViewCell.xib */,
 			);
 			path = Beach;
-
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
