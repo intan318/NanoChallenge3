@@ -70,7 +70,7 @@ extension HeaderTableViewCell: UICollectionViewDelegate, UICollectionViewDataSou
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "headerCollectionViewCellID", for: indexPath) as! HeaderCollectionViewCell
         cell.backgroundColor = .black
-        cell.layer.cornerRadius = 17
+//        cell.layer.cornerRadius = 17
     
         /*
         let img = cell.viewWithTag(1) as! UIImageView
@@ -90,7 +90,7 @@ extension HeaderTableViewCell: UICollectionViewDelegate, UICollectionViewDataSou
        }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets.init(top: 0, left: 16, bottom: 0, right: 16)
+        return UIEdgeInsets.init(top: 0, left: 12, bottom: 0, right: 16)
     }
     
 }

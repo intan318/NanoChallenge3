@@ -56,9 +56,9 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
     if indexPath.row == 0 {
         return 265
     } else if indexPath.row == 1 {
-        return 305
+        return 340
     } else {
-        return 305
+        return 340
     }
     
 }

@@ -20,20 +20,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="290"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW1-qt-e7I">
-                                <rect key="frame" x="26" y="29" width="163" height="37"/>
+                                <rect key="frame" x="26" y="29" width="125" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="qcx-qg-Q4A"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq2-aC-80v">
-                                <rect key="frame" x="304" y="32" width="38" height="30"/>
+                                <rect key="frame" x="305" y="32" width="37" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="lMS-ho-Sbc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
                                 <state key="normal" title="More"/>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="RSj-mv-Sy7">

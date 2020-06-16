@@ -22,26 +22,34 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hU0-6T-IhJ">
                                 <rect key="frame" x="0.0" y="0.0" width="311" height="171"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recommendation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-rQ-Hff">
-                                <rect key="frame" x="13" y="116" width="113" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommendation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3z-rQ-Hff">
+                                <rect key="frame" x="13" y="116" width="140" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Oua-zW-HDJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbL-7H-Dr4">
-                                <rect key="frame" x="13" y="133" width="94" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbL-7H-Dr4">
+                                <rect key="frame" x="13" y="133" width="91" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="QpX-zH-nb9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="E3z-rQ-Hff" firstAttribute="leading" secondItem="mXg-ca-Bnt" secondAttribute="leading" constant="13" id="3nU-nL-8tY"/>
+                            <constraint firstAttribute="bottom" secondItem="xbL-7H-Dr4" secondAttribute="bottom" constant="14" id="6aR-Cu-JGF"/>
                             <constraint firstAttribute="trailing" secondItem="hU0-6T-IhJ" secondAttribute="trailing" id="9E2-aM-2aL"/>
                             <constraint firstItem="hU0-6T-IhJ" firstAttribute="top" secondItem="mXg-ca-Bnt" secondAttribute="top" id="C3u-xP-XAm"/>
+                            <constraint firstItem="xbL-7H-Dr4" firstAttribute="leading" secondItem="mXg-ca-Bnt" secondAttribute="leading" constant="13" id="Q2T-OH-vpj"/>
                             <constraint firstItem="hU0-6T-IhJ" firstAttribute="leading" secondItem="mXg-ca-Bnt" secondAttribute="leading" id="dOy-7M-XbV"/>
+                            <constraint firstAttribute="bottom" secondItem="E3z-rQ-Hff" secondAttribute="bottom" constant="31" id="jb5-pg-1q9"/>
                             <constraint firstAttribute="bottom" secondItem="hU0-6T-IhJ" secondAttribute="bottom" id="tJN-Ag-mD4"/>
                         </constraints>
                     </view>

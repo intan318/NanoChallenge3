@@ -75,11 +75,11 @@ extension BeachTableViewCell: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-           return CGSize(width: self.frame.width / 2.3, height: 100)
+           return CGSize(width: self.frame.width / 2.4, height: 130)
        }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-              return UIEdgeInsets.init(top: 0, left: 16, bottom: 8, right: 16)
+              return UIEdgeInsets.init(top: 0, left: 12, bottom: 12, right: 12)
           }
        
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {

@@ -20,11 +20,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="330"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Collections" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qxp-OS-gQe">
-                                <rect key="frame" x="27" y="25" width="141" height="27"/>
+                                <rect key="frame" x="27" y="25" width="150.5" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="Y5d-k5-bpF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
