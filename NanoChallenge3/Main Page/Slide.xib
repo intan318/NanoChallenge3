@@ -13,8 +13,9 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dFP-gb-PzD">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFP-gb-PzD">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORb-Bg-22Z">
                     <rect key="frame" x="32" y="120" width="350" height="300"/>
@@ -53,11 +54,7 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="dFP-gb-PzD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3cf-Oq-Wdc"/>
-                <constraint firstAttribute="trailing" secondItem="dFP-gb-PzD" secondAttribute="trailing" id="5Tl-Jb-hw4"/>
-                <constraint firstItem="dFP-gb-PzD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7ho-yI-7Kh"/>
                 <constraint firstItem="ORb-Bg-22Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="120" id="B3s-Wn-ezc"/>
-                <constraint firstAttribute="bottom" secondItem="dFP-gb-PzD" secondAttribute="bottom" id="Lwp-Vm-ITR"/>
                 <constraint firstItem="ORb-Bg-22Z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="lyY-db-qNg"/>
                 <constraint firstAttribute="trailing" secondItem="ORb-Bg-22Z" secondAttribute="trailing" constant="32" id="pZu-lv-lsR"/>
             </constraints>
