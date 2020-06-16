@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol HeaderTableViewCellDelegate: class {
+    func moveToDetailExplore()
+}
+
 class HeaderTableViewCell: UITableViewCell {
     
     var sampleData = [
@@ -43,6 +47,7 @@ class HeaderTableViewCell: UITableViewCell {
     ]
     @IBOutlet weak var collectionView: UICollectionView!
     
+    weak var delegate: HeaderTableViewCellDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -91,6 +96,10 @@ extension HeaderTableViewCell: UICollectionViewDelegate, UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets.init(top: 0, left: 12, bottom: 0, right: 16)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.delegate?.moveToDetailExplore()        
     }
     
 }

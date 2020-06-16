@@ -38,11 +38,22 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="jf9-VD-UH8" id="wwT-Wb-s1a"/>
+                        <segue destination="Hbs-tE-TEq" kind="push" id="Gaz-Gj-nGa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAG-qO-3Yf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1134.7826086956522" y="84.375"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="xqt-Iv-DmW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="Hbs-tE-TEq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1y8-aU-VkU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4g-vS-MmC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1785" y="-38"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jcy-aT-wuQ">

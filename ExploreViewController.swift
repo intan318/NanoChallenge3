@@ -38,6 +38,7 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
         
                 if indexPath.row == 0 {
                     let cell = tableView.dequeueReusableCell(withIdentifier: "headerTableViewCellID") as! HeaderTableViewCell
+                    cell.delegate = self
 //                    cell.backgroundColor = .red
                     return cell
                 } else if indexPath.row == 1 {
@@ -62,4 +63,14 @@ extension ExploreViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
 }
+}
+
+extension ExploreViewController: HeaderTableViewCellDelegate {
+    func moveToDetailExplore() {
+        let dest = UIStoryboard(name: "Main", bundle: nil)
+        let vcDest = dest.instantiateViewController(identifier: "DetailExplore")
+        self.navigationController?.pushViewController(vcDest, animated: true)
+    }
+    
+    
 }
