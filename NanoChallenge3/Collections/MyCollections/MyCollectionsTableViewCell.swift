@@ -13,13 +13,13 @@ class MyCollectionsTableViewCell: UITableViewCell {
     var dataMyCollections = [
         [
             "picture" : #imageLiteral(resourceName: "Gunung_Gede"),
-            "txtNamaTempat" : "Salak Mountain",
+            "txtNamaTempat" : "Labuan Bajo",
             "txtWaktu" : "20 min",
         ],
         
         [
             "picture" : #imageLiteral(resourceName: "Gunung_Gede"),
-            "txtNamaTempat" : "Salak Mountain",
+            "txtNamaTempat" : "Lombok",
             "txtWaktu" : "20 min",
         ],
         
@@ -73,7 +73,7 @@ extension MyCollectionsTableViewCell: UICollectionViewDelegate, UICollectionView
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.frame.width / 2.3, height: 100)
+        return CGSize(width: self.frame.width / 2.3, height: 130)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Explore View Controller-->
+        <!--Explore-->
         <scene sceneID="dzg-Jj-86m">
             <objects>
                 <viewController storyboardIdentifier="Explore" id="cIs-cR-JCM" customClass="ExploreViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0jp-TN-8OX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="wOq-cI-Onz"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="icon-explore" selectedImage="icon-explore" id="wOq-cI-Onz"/>
                     <navigationItem key="navigationItem" id="BCi-2i-Ean"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -62,4 +62,7 @@
             <point key="canvasLocation" x="227.536231884058" y="84.375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-explore" width="48" height="48"/>
+    </resources>
 </document>

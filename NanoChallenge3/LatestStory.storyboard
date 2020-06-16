@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Fika View Controller-->
+        <!--Latest Story-->
         <scene sceneID="Yxt-w5-Yxq">
             <objects>
                 <viewController storyboardIdentifier="StoryLatest" id="lFB-gg-jI6" customClass="FikaViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,7 +55,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3rH-ip-IEV"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Latest Story" image="icon-main" selectedImage="icon-main" id="FnQ-MV-saN"/>
                     <navigationItem key="navigationItem" id="5tR-9w-nSx"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="askButton" destination="Udb-BE-e5I" id="qhV-gG-v9V"/>
                         <outlet property="pageControl" destination="CyK-IA-1cU" id="bG4-T5-CIb"/>
@@ -98,5 +100,6 @@
         <image name="icon-VR-fin" width="72" height="72"/>
         <image name="icon-ask-fin" width="48" height="48"/>
         <image name="icon-audio-fin" width="72" height="72"/>
+        <image name="icon-main" width="48" height="48"/>
     </resources>
 </document>

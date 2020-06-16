@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collections View Controller-->
+        <!--Collections-->
         <scene sceneID="YWu-kL-kqQ">
             <objects>
                 <viewController id="rJc-Nz-FCU" customClass="CollectionsViewController" customModule="NanoChallenge3" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o22-Ds-jXo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="ayG-zX-cVc"/>
+                    <tabBarItem key="tabBarItem" title="Collections" image="icon-collection" selectedImage="icon-collection" id="ayG-zX-cVc"/>
                     <navigationItem key="navigationItem" id="BPH-P6-509"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -58,4 +58,7 @@
             <point key="canvasLocation" x="466.66666666666669" y="-219.64285714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-collection" width="48" height="48"/>
+    </resources>
 </document>

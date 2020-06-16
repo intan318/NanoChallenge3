@@ -60,9 +60,9 @@ extension CollectionsViewController: UITableViewDelegate, UITableViewDataSource{
           if indexPath.row == 0 {
               return 184
           } else if indexPath.row == 1 {
-              return 290
+              return 270
           } else {
-              return 310
+              return 360
           }
       }
     
