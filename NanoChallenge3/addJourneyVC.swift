@@ -27,7 +27,7 @@ class addJourneyVC: UIViewController{
         icon.layer.cornerRadius = icon.frame.height/2
         
         exchange.backgroundColor = .lightGray
-        exchange.titleLabel?.text = ""
+        exchange.titleLabel?.text = "Nusa Penida"
         exchange.layer.cornerRadius = 10
         
         joinClub.backgroundColor = .green

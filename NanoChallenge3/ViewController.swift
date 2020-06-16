@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var place: String = ""
+    var place: String = "Nusa Penida"
 
     @IBOutlet weak var detailPlace: UILabel!
     @IBOutlet weak var placeTitle: UILabel!
@@ -51,7 +51,6 @@ class ViewController: UIViewController {
             vc?.place = placeTitle.text!
         }
     }
-
 
     @objc
     func addTapped() {
